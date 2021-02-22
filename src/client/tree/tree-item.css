@@ -1,0 +1,56 @@
+.root {
+    display: flex;
+    cursor: default;
+    align-items: center;
+}
+
+.name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+}
+
+.fileTypeIcon {
+    flex: none;
+    margin-right: 6px;
+}
+
+.editIcon {
+    display: none;
+}
+
+.root:hover .editIcon {
+    display: block;
+    cursor: pointer;
+}
+
+.nameEdit {
+    flex: 1 1 auto;
+    position: relative;
+}
+
+.nameInput {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font: inherit;
+    line-height: 20px;
+    outline: 1px solid #0090f9;
+    outline-offset: 0;
+}
+
+.nameInputInvalid {
+    outline: 1px solid #c80000;
+}
+
+.nameInputError {
+    position: absolute;
+    top: calc(100% - 1px);
+    padding: 3px 5px;
+    outline: 1px solid #c80000;
+    font-size: 12px;
+    line-height: 18px;
+    color: #444;
+    background: #f6dddd;
+}

@@ -1,0 +1,16 @@
+{
+    "include": ["src", "typings"],
+    "compilerOptions": {
+        "jsx": "react-jsxdev",
+        "outDir": "build",
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "strict": true,
+        "importsNotUsedAsValues": "error",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "skipLibCheck": true
+    }
+}

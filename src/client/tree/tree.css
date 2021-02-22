@@ -1,0 +1,12 @@
+.root {
+    width: 200px;
+    font: 13px/22px sans-serif;
+}
+
+.dir {
+    margin-left: 20px;
+}
+
+.root > .dir {
+    margin-left: 0;
+}
